@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resume</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xpressengine/xeicon@2.3.1/xeicon.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="get-user-id-wrap">
+    <div class="inner">
+      <h1>
+        my<br>
+        github<br>
+        resume
+      </h1>
+      <div class="get-id-form">
+        <label for="" class='user-id'>
+          <input type="text">
+          <span></span>
+        </label>
+        <button type='button' class='btn-submit'>generate</button>
+      </div>
+    </div>
+  </div>
+  <div class="loding">
+    <div class="inner">
+      <div>
+        <span class="spin"></span>
+        <p><span class="user">user</span> 의 정보 가져오는 중</p>
+      </div>
+    </div>
+  </div>
+  <div class="resume-wrap">
+    <div class="other-info">
+      <div class="blog-area">
+        <a href="#self" class="blog"></a>
+      </div>
+    </div>
+    <div class="user-wrap">
+      <div class="avatar">
+        <img src="" alt="">
+      </div>
+      <div class="info-area">
+        <h3 class="name">name</h3>
+        <div class="location-date">
+          <p class="location"></p>
+          <div class='date'>
+            <span class="created"></span>
+            <span class="updated"></span>
+          </div>
+        </div>
+        <p class="bio"></p>
+        <ul class="company">
+        </ul>
+      </div>
+    </div>
+    <ul class="language"></ul>
+    <div class="user-portfolio-wrap">
+      <ul></ul>
+    </div>
+  </div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./index.js"></script>
+</html>
